@@ -12,13 +12,25 @@ public class Student {
 
     private String school;
 
+    private String phone;
+
 
     public String getSchool() {
         return school;
     }
 
     public void setSchool(String school) {
+
         this.school = school;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+
     }
 
     public String getAddress() {
